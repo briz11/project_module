@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tutorials</title>
-	<link rel="stylesheet"  href="css/style.css">
+	<title>Advance your skills</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Learn about Technology, Business Communication, and other essential skills">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script src="js/hover.js"></script>
 	<link rel="stylesheet"  href="css/bootstrap.css">
 	<link rel="stylesheet"  href="css/bootstrap-theme.min.css">
 	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet"  href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
    	<link href="http://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-   	<meta name="description" content="Learn about Technology, Business Communication, and other essential skills">
    	<link rel="icon" href="favicon.ico"> <!-- http://www.flaticon.com/free-icon/computer-screen_63337 -->
 </head>
 <body>
@@ -29,11 +32,28 @@
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="index.html"><h3>Home</h3></a></li>
-						<li><a href="tech.html"><h3>Tech <h3></a></li>
-						<li><a href="bc.html"><h3>Business Communication</h3></a></li>
-						<li><a href="resource.html"><h3>Resources</h3></a></li>
-						<li><a href="about.html"><h3>Our Team</h3></a></li>
-						<li class="active"><a href="video.html"><h3>Videos</h3></a></li>
+
+       					 <li class="dropdown br "> <!-- First hover with class br -->
+          					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>Tech<span class="caret"></span></h3></a>
+          						<ul class="dropdown-menu">
+           							<li><a href="hardware.html"><h5>Hardware</h5></a></li>
+            						<li><a href="software.html"><h5>Software</h5></a></li>
+         						</ul>
+       					 </li>
+
+       					  <li class="dropdown bz "> <!-- Second hover with class bz -->
+          					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>Business Communication<span class="caret"></span></h3></a>
+          						<ul class="dropdown-menu">
+           							 <li><a href="#"><h5>Resume Guide</h5></a></li>
+            						<li><a href="#"><h5>Grammar</h5></a></li>
+         						</ul>
+       					  </li>
+       					 
+  
+        				<li><a href="video.html"><h3>Videos</h3></a></li>
+       					<li><a href="resource.html"><h3>Resources</h3></a></li>
+       					<li><a href="about.html"><h3>Our Team</h3></a></li>
+						
 					</ul>
 					<div class="change"> 
 						<form action="#" class="navbar-form navbar-right" role="search" name="condition"> <!-- add size later -->
