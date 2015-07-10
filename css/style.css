@@ -25,3 +25,10 @@ ul{
 .par {
 	word-spacing: 3px;
 }
+.minimize {
+	padding: 0px;
+}
+.h-slim {
+	font-weight:0;
+	margin: 0px;
+}
